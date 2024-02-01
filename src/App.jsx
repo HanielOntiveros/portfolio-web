@@ -1,4 +1,5 @@
-import { About, Home, Navbar, Skills } from "./components"
+import { About, Home, Projects, Skills } from "./components"
+import { Navbar } from "./components/Navbar"
 
 export const App = () => {
 
@@ -8,6 +9,7 @@ export const App = () => {
       <Home />
       <About />
       <Skills />
+      <Projects />
     </div>
   )
 }

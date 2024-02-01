@@ -2,7 +2,7 @@ export const About = () => {
     return (
         <section className="relative w-full h-svh">
             <div className="inline-block h-screen mx-3 ">
-                <h1 className='mt-20 text-5xl font-semibold text-white text-end '>About</h1>
+                <h2 className='mt-20 text-5xl font-semibold text-white text-end '>About</h2>
                 <p className='mt-5 text-xl font-semibold text-white text-end '>
                     Nice to meet you.
                 </p>

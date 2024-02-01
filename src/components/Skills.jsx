@@ -2,11 +2,11 @@
 export const Skills = () => {
     return (
         <section className=" w-full h-svh realative">
-            <h1 className='mt-20 text-5xl font-semibold text-white text-end'>Skills</h1>
-            <div className="flex flex-col h-screen mx-3 justify-start items-center">
-                <div className="flex justify-center item-center">
+            <h2 className='mt-20 mx-3 text-5xl font-semibold text-white text-end'>Skills</h2>
+            <div className="flex flex-col h-screen mx-3 my-10 justify-even items-center">
+                <div className="flex ">
                     <ul >
-                        <li className='m-3 text-xl font-regular leading-8 text-white text-end '>HTML</li>
+                        <li className='text-xl font-regular leading-8 text-white text-end '>HTML</li>
                         <li className='m-3 text-xl font-regular leading-8 text-white text-end '>JS</li>
                         <li className='m-3 text-xl font-regular leading-8 text-white text-end '>REDUX</li>
                         <li className='m-3 text-xl font-regular leading-8 text-white text-end '>GIT</li>
@@ -17,7 +17,6 @@ export const Skills = () => {
                         <li className='m-3 text-xl font-regular leading-8 text-white text-start '>REACT</li>
                         <li className='m-3 text-xl font-regular leading-8 text-white text-start '>EXPRESS</li>
                         <li className='m-3 text-xl font-regular leading-8 text-white text-start '>GITHUB</li>
-
                     </ul>
                 </div>
                 <p className='mt-6 text-3xl font-bold text-white text-end '>
