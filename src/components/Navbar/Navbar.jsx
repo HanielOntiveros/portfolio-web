@@ -15,7 +15,7 @@ export const Navbar = () => {
             <div className="flex h-full bg-black">
                 <div className='flex flex-col justify-start items-start'>
                     <button
-                        className='h-full w-full p-2 z-20'
+                        className='h-full w-full p-2 z-20 lg:hidden'
                         onClick={handleMenu}
                     >
                         {
