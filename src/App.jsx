@@ -1,15 +1,14 @@
-import { About, Home, Projects, Skills } from "./components"
+import { Footer } from "./components/Footer"
+import { MainSection } from "./components/Main/MainSection"
 import { Navbar } from "./components/Navbar"
 
 export const App = () => {
 
   return (
     <div className='bg-black scroll-auto'>
-      < Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
+      <Navbar />
+      <MainSection />
+      <Footer />
     </div>
   )
 }
