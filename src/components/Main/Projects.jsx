@@ -5,7 +5,7 @@ export const Projects = () => {
     return (
         <section className=' w-full h-auto realative'>
             <div className="flex flex-col h-auto mx-3 justify-start items-end">
-                <h2 className='mt-20 text-5xl font-semibold text-white text-end '>Projects</h2>
+                <h2 className='mt-20 text-5xl font-semibold text-white text-end md:text-8xl md:mt-24'>Projects</h2>
                 <Card
                     title={'Web title'}
                     img={web}

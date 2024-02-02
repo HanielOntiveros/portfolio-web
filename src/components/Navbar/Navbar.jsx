@@ -11,9 +11,9 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className='fixed w-full top-0 end-0 h-16 z-10'>
+        <nav className='fixed w-full top-0 end-0 h-16 z-10 md:h-24'>
             <div className="flex h-full bg-black">
-                <div className='flex flex-col justify-start items-start'>
+                <div className='flex flex-col '>
                     <button
                         className='h-full w-full p-2 z-20 lg:hidden'
                         onClick={handleMenu}
@@ -22,13 +22,13 @@ export const Navbar = () => {
                             toggleMenu
                                 ?
                                 <img
-                                    className="h-10 w-full object-contain md:h-full md:w-48 "
+                                    className="h-10 w-full object-contain md:h-full md:w-28 md:p-2"
                                     src={close}
                                     alt='linux penguin'
                                 />
                                 :
                                 <img
-                                    className="h-9 w-full object-contain md:h-full md:w-48 "
+                                    className="h-9 w-full object-contain md:h-full md:w-28 md:p-2"
                                     src={menu}
                                     alt='linux penguin'
                                 />
@@ -39,7 +39,7 @@ export const Navbar = () => {
                     <h1 className='text-white '>sH dev<br />logo</h1>
                 </div>
             </div>
-            <hr className=" decoration-white border-1" />
+            <hr className=" decoration-white border-1 md:border-2 lg:w-1/2 lg:" />
             {toggleMenu ? <NavbarMenu /> : null}
         </nav >
     )
