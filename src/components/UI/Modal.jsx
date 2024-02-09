@@ -17,7 +17,7 @@ export const Modal = ({ setModalView }) => {
             </div>
             <div className='w-full h-4/5 flex flex-col items-start justify-cente gap-2 mt-4 px-2 sm:items-center sm:mt-0'>
                 <p className='text-white text-2xl font-bold text-start sm:text-3xl md:text-5xl  lg:text-7xl'>Coming Soon!</p>
-                <p className='text-white text-xl font-medium text-start sm:text-3xl md:text-5xl  lg:text-7xl'>We still crafting this amazing page!</p>
+                <p className='text-white text-xl font-medium text-start sm:text-2xl md:text-4xl  lg:text-6xl'>We still crafting this amazing page!</p>
             </div>
 
         </modal>
