@@ -1,6 +1,6 @@
 export const About = () => {
     return (
-        <section className="relative w-full h-auto">
+        <section id="about" className="relative w-full h-auto">
             <div className="inline-block h-auto mx-3 ">
                 <h2 className='mt-20 text-5xl font-semibold text-white text-end md:text-8xl'>About</h2>
                 <p className='mt-5 text-xl font-semibold text-white text-end md:text-4xl'>

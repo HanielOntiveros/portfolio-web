@@ -2,6 +2,8 @@ import { useState } from 'react'
 import { NavbarMenu } from "./NavbarMenu"
 import menu from '../../assets/icons//menu-2-svgrepo-com.svg'
 import close from '../../assets/icons/close-svgrepo-com.svg'
+import logo from '../../assets/imgs/logo.svg'
+import { Link } from 'react-router-dom'
 
 export const Navbar = () => {
     const [toggleMenu, setToggleMenu] = useState(false)
@@ -27,19 +29,21 @@ export const Navbar = () => {
                                 <img
                                     className="h-10 w-full object-contain md:h-full md:w-28 md:p-2"
                                     src={close}
-                                    alt='linux penguin'
+                                    alt='close icon'
                                 />
                                 :
                                 <img
                                     className="h-9 w-full object-contain md:h-full md:w-28 md:p-2"
                                     src={menu}
-                                    alt='linux penguin'
+                                    alt='menu icon'
                                 />
                         }
                     </button>
                 </div>
                 <div className='absolute flex  w-full h-full justify-center  lg:justify-start lg:m-3'>
-                    <h1 className='text-white '>sH dev<br />logo</h1>
+                    <Link to={'/'} >
+                        <img className='bg-[#ebbf26] h-full w-auto' src={logo} alt='shdev logo' />
+                    </Link>
                 </div>
             </div>
             <hr className=" decoration-white border-1 md:border-2 lg:w-1/2 lg:absolute lg:end-0" />
