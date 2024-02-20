@@ -5,9 +5,7 @@ export const MainSection = () => {
         <main>
             <Home />
             <About />
-            <div className="lg:hidden">
-                <Skills />
-            </div>
+            <Skills />
             <Projects />
             <Contact />
         </main>
