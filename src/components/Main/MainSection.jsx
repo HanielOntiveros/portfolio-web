@@ -2,7 +2,7 @@ import { Home, About, Skills, Projects, Contact } from ".."
 
 export const MainSection = () => {
     return (
-        <main>
+        <main className="bg-black">
             <Home />
             <About />
             <Skills />

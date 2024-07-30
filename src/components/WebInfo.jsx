@@ -1,6 +1,6 @@
 
 export const WebInfo = () => {
     return (
-        <div>WebInfo</div>
+        <div className="bg-white w-48 h-48">WebInfo</div>
     )
 }

@@ -1,13 +1,15 @@
+import img from "../../assets/imgs/crm-web.png"
+
 export const webDatas =
     [
         {
             id: '1',
-            title: "CRM",
-            description: "A CRM page using different technologies as React with Vite, React Router Dom, Tailwind and Json-server to create a fake backend db",
+            title: "Lo Que Veo",
+            description: "Pagina creada para una influencer fotografa extravagante con una idea unica",
             technologies: [
-                "react", "tailwind", "react-router-dom", "json-server"
+                "js", "bootstrap", "css"
             ],
-            image: "../../assets/imgs/crm-web.png"
+            image: img
         },
         {
             id: '2',
@@ -16,7 +18,7 @@ export const webDatas =
             technologies: [
                 "react", "tailwind", "react-router-dom", "json-server"
             ],
-            image: "../../assets/imgs/crm-web.png"
+            image: img
         },
         {
             id: '3',
@@ -25,6 +27,6 @@ export const webDatas =
             technologies: [
                 "react", "tailwind", "react-router-dom", "json-server"
             ],
-            image: "../../assets/imgs/crm-web"
+            image: img
         },
     ]

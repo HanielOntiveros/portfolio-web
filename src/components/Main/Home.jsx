@@ -7,7 +7,7 @@ export const Home = () => {
     const [modalView, setModalView] = useState('true')
 
     return (
-        <section className='relative w-full h-svh mb-5  lg:flex lg:justify-center'>
+        <section className='relative w-full h-svh mb-5  lg:flex lg:justify-center '>
             {
                 modalView ?
                     <Modal setModalView={setModalView} /> :
