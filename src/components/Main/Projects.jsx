@@ -2,6 +2,7 @@ import { Card } from "../UI/Card"
 import { webDatas } from "../../data/webPage"
 
 export const Projects = () => {
+
     return (
         <section id="projects" className=' w-full h-auto realative'>
             <div className="flex flex-col flex-wrap h-auto mx-3 justify-start items-end lg:items-end lg:m-0 lg:mt-10 lg:p-10 relative">

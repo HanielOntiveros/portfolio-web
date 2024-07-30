@@ -1,4 +1,5 @@
-import img from "../../assets/imgs/crm-web.png"
+import img from "../assets/imgs/crm-web.webp"
+import imgLqv from "../assets/imgs/Lo-que-veo.webp"
 
 export const webDatas =
     [
@@ -9,7 +10,7 @@ export const webDatas =
             technologies: [
                 "js", "bootstrap", "css"
             ],
-            image: img
+            image: imgLqv
         },
         {
             id: '2',
