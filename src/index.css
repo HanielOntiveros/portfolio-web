@@ -2,3 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+@font-face {
+    font-family: 'Jura';
+    font-weight: 400;
+    font-style: normal;
+    src: url('./assets/font/Jura-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Jura';
+    font-weight: 300;
+    font-style: normal;
+    src: url('./assets/font/Jura-Light.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Jura';
+    font-weight: 500;
+    font-style: normal;
+    src: url('./assets/font/Jura-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Jura';
+    font-weight: 600;
+    font-style: normal;
+    src: url('./assets/font/Jura-SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Jura';
+    font-weight: 700;
+    font-style: normal;
+    src: url('./assets/font/Jura-Bold.ttf') format('truetype');
+  }
+  }

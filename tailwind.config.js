@@ -6,8 +6,13 @@ export default {
   ],
   theme: {
     fontFamily: {
-      sans: ['Jura', 'sans-serif'],
-      serif: ['Merriweather', 'serif'],
+      'jura': ['Jura', 'sans-serif'],
+    }, fontWeight: {
+      light: 300,
+      normal: 400,
+      medium: 500,
+      semibold: 600,
+      bold: 700,
     },
     extend: {},
   },

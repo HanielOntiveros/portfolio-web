@@ -42,12 +42,12 @@ export const Navbar = () => {
                 </div>
                 <div className='absolute flex  w-full h-full justify-center  lg:justify-start lg:m-3'>
                     <Link to={'/'} >
-                        <img className='bg-[#ebbf26] h-full w-auto' src={logo} alt='shdev logo' />
+                        <img className='bg-[#ebbf26] h-full w-full ' src={logo} alt='shdev logo' />
                     </Link>
                 </div>
             </div>
             <hr className=" decoration-white border-1 md:border-2 lg:w-1/2 lg:absolute lg:end-0" />
-            {toggleMenu ? <NavbarMenu /> : null}
+            {toggleMenu ? <NavbarMenu toggleMenu={toggleMenu} setToggleMenu={setToggleMenu} /> : null}
         </nav >
     )
 }
