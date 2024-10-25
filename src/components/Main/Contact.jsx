@@ -24,14 +24,14 @@ export const Contact = () => {
                         />
                         Linkedin
                     </a>
-                    <p className='font-jura mt-6 text-xl font-medium text-white text-center '>
+                    <a href='mailto:shdeveloper19@gmail.com' className='font-jura mt-6 text-xl font-medium text-white text-center '>
                         <img
                             className="h-8 w-full object-contain sm:h-auto sm:w-16 md:w-20 "
                             src={email}
                             alt='email logo'
                         />
                         Email
-                    </p>
+                    </a>
                 </div>
 
 
