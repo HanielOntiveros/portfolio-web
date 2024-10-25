@@ -16,21 +16,12 @@ export const webDatas =
         {
             id: '2',
             title: "Flor de lima",
-            description: "Do you love mezcal or kombucha? This authentic Mexican brand is exactly what you need.",
+            description: "Do you love mezcal or kombucha? This authentic Mexican brand is exactly what your looking for.",
             technologies: [
                 "wordpress", "elementor"
             ],
             image: imgFLM,
             link: 'https://flordelimamezcal.com/'
         },
-        // {
-        //     id: '3',
-        //     title: "CRM",
-        //     description: "A CRM page using different technologies as React with Vite, React Router Dom, Tailwind and Json-server to create a fake backend db",
-        //     technologies: [
-        //         "react", "tailwind", "react-router-dom", "json-server"
-        //     ],
-        //     image: img,
-        //     link: 'https://loqueveo.mx/'
-        // },
+
     ]
